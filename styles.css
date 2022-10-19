@@ -15,6 +15,9 @@ img {
     
     max-height: 100%;
     max-width: 100%;
+    filter: saturation(40%);
+    filter: sepia(30%);
+    filter: opacity(80%)
     
 }
 
@@ -26,4 +29,28 @@ img {
     margin-right: auto;
     width: 50%;
     padding: auto;
+}
+
+.container-fluid {
+    background-color: 	#ece0d1;
+}
+
+.jumbo-container {
+    color:#800000;
+}
+
+.jumbotron.text-center {
+    background-color: 	#ece0d1;
+}
+
+.cat-logo {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+}
+
+.nav.navbar-nav {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
 }
