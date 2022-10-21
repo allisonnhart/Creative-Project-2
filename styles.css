@@ -54,3 +54,16 @@ img {
     display: flex;
     justify-content: right;
 }
+
+.footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: groove 3px #967259;
+    border-radius: 5px;
+    border-width: 20px;
+    color: #967259;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
